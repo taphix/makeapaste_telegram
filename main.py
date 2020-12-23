@@ -3,12 +3,12 @@ import telebot
 from telebot import types
 
 URL = 'https://pastebin.com/api/api_post.php'
-TOKEN = "1473852862:AAEx-Pzcne5qtZDy-FOJXa8E7wDN-gQamk8"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 STATE_DICT = {}
 
 USER_DATA = {
-    'api_dev_key': 'PthjTNm8B_jsY9z_R9MQgsgkXmOnb20I',
+    'api_dev_key': '',
     'api_option': 'paste',
     'api_paste_code': '',
     'api_paste_name': '',
